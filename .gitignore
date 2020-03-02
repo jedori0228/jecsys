@@ -4,3 +4,5 @@
 AutoDict*
 pdf/*.pdf
 txt/*.txt
+CondFormats/JetMETObjects/obj/
+CondFormats/JetMETObjects/src/jecsys_Dict.cxx
