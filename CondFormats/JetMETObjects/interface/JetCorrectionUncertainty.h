@@ -3,6 +3,10 @@
 
 #include <string>
 #include <vector>
+
+#include "CondFormats/JetMETObjects/interface/SimpleJetCorrectionUncertainty.h"
+#include "CondFormats/JetMETObjects/interface/JetCorrectorParameters.h"
+
 class SimpleJetCorrectionUncertainty;
 class JetCorrectorParameters;
 

@@ -5,7 +5,6 @@
 // Generic parameters for Jet corrections
 //
 #include "CondFormats/JetMETObjects/interface/JetCorrectorParameters.h"
-#include "CondFormats/JetMETObjects/src/Utilities.cc"
 #include <iostream>
 #include <iomanip>
 #include <fstream>
@@ -14,6 +13,8 @@
 #include <algorithm>
 #include <cmath>
 #include <iterator>
+
+using namespace std;
 
 //------------------------------------------------------------------------ 
 //--- JetCorrectorParameters::Definitions constructor --------------------
@@ -538,10 +539,3 @@ JetCorrectorParametersCollection::findKey( std::string const & label ) const {
 //#include "FWCore/Framework/interface/EventSetup.h"
 //#include "FWCore/Framework/interface/ESHandle.h"
 //#include "FWCore/Framework/interface/ModuleFactory.h"
-#ifdef STANDALONE
-#else
-#include "FWCore/Utilities/interface/typelookup.h"
- 
-TYPELOOKUP_DATA_REG(JetCorrectorParameters);
-//TYPELOOKUP_DATA_REG(JetCorrectorParametersCollection);
-#endif

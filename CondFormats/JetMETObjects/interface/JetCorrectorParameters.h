@@ -7,6 +7,7 @@
 #ifndef JetCorrectorParameters_h
 #define JetCorrectorParameters_h
 
+#include "CondFormats/JetMETObjects/src/Utilities.cc"
 #include <string>
 #include <vector>
 #include <algorithm>
